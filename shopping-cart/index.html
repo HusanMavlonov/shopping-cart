@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="author" content="CodeHim">
+    <title>JavaScript Vanilla Shopping Cart Example</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+    <!-- Style CSS -->
+    <link rel="stylesheet" href="css/style.css">
+	<!-- Demo CSS (No need to include it into your project) -->
+	<link rel="stylesheet" href="css/demo.css">
+  
+  </head>
+  <body>
+ <header class="intro">
+ 
+
+ <div class="action">
+  <header class="header">
+    <div class="container">
+     <div class="header_inner">
+         <nav class="nav" >
+         <a href="#" class="nav_link">About</a>
+         <a href="#" class="nav_link">Contact</a>
+         <a href="#" class="nav_link">Blog</a>
+         <a href="#" class="nav_link">Service</a>
+        </nav>
+       </div>
+      </div>
+     </header>
+ </div>
+ </header>
+  
+
+ <main>
+     <!-- Start DEMO HTML (Use the following code into your project)-->
+<div class="cart-modal-overlay">
+    <div class="cart-modal">
+      <i id="close-btn" class="fas fa-times"></i>
+        <h1 class="cart-is-empty">Cart is empty</h1>
+      
+        <div class="product-rows">
+        </div>
+        <div class="total">
+          <h1 class="cart-total">TOTAL</h1>
+            <span class="total-price">$0</span>
+              <button class="purchase-btn">PURCHASE</button>
+        </div>
+      </div>
+</div>
+      
+<!--   end of cart modal -->
+  <div class="cart-btn">
+    <i id="cart" class="fas fa-shopping-cart"></i>
+      <span class ="cart-quantity">0</span>
+  </div>
+<!--  products  -->
+  <div class="items-container">
+    <div class="card-1 card">
+      <img class="product-image" src="https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/610467bb-071e-4532-a8a1-abd79e17acda/air-force-1-07-shoe-Dz225W.png" alt="">
+        <button class="add-to-cart">Add to cart</button>
+          <span class="product-price">$1395</span>
+    </div>
+    <div class="card-2 card">
+      <img class="product-image" src="https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/eacac25a-b975-4758-b435-7f4453870c66/air-force-1-mid-le-older-shoes-bbzgWN.png" alt="">
+      <button class="add-to-cart">Add to cart</button>
+        <span class="product-price">$1175</span>
+    </div>
+    <div class="card-3 card">
+      <img class="product-image" src="https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/52ad3825-a329-4acb-b3b9-472dd332bc56/air-force-1-lv8-older-shoes-m3QtQS.png" alt="">
+        <button class="add-to-cart">Add to cart</button>
+          <span class="product-price">$1150</span>
+    </div>
+    <div class="card-4 card">
+      <img class="product-image" src="https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/438e76f8-17f4-49d3-bc2f-659912650778/dunk-high-older-shoes-JfWkHc.png" alt="">
+         <button class="add-to-cart">Add to cart</button>
+        <span class="product-price">$1575</span>
+    </div>
+    <div class="card-5 card">
+      <img class="product-image" src="https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/7f232d67-904e-46d0-92ff-b7e2a6853c97/air-max-90-ltr-younger-shoes-rkZ2rm.png" alt="">
+      <button class="add-to-cart">Add to cart</button>
+      <span class="product-price">$1230</span>
+    </div>
+  </div>  
+     <!-- END EDMO HTML (Happy Coding!)-->
+ </main>
+ 
+      
+  <footer class="credit"><h2>Author: HusanMavlonov</h2></a></footer>
+  
+  <script  src="./js/script.js"></script>
+  </body>
+</html>
